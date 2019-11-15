@@ -89,3 +89,5 @@ exclude: [
   'gulpfile.js',
   'README.md'
 ]
+
+theme: jekyll-theme-cayman
