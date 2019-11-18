@@ -34,11 +34,11 @@ The official [github page](https://universaldashboard.io/) for powershell univer
 
 #### Documentation
 
-Adam Driscoll has done an amazing job [documenting the module](https://docs.universaldashboard.io/) this is certainly makes this module a lot easier to get to grips with as everything you need to know is documented on this page.
+Adam Driscoll has done an amazing job [documenting the module](https://docs.universaldashboard.io/) it certainly makes this module a lot easier to get to grips with, as everything you need to know is documented on this page.
 
 #### Demo Website
 
-The [demo website](https://poshud.com/) shows off the user interface controls available within the module, along with live interaction of the control diaplyed. It also has the code examples behind the demonstrations shown. Great to get quick references on how to use the user interface components within universal dashboard.
+The [demo website](https://poshud.com/) shows off the user interface controls available within the module, along with live interaction of the control displayed. It also has the code examples behind the demonstrations shown. Great to get quick references on how to use the user interface components within universal dashboard.
 
 #### Universal Dashboard Forum
 
