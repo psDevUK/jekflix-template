@@ -1,6 +1,6 @@
 # Site Settings
-name: Jekflix
-title: UDflix | psdevuk blog
+name: Powershell Web Framework Universal Dashboard
+title: UDFLIX a Blogtastic Site
 description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
 tags:
   - blog
@@ -8,20 +8,18 @@ tags:
   - jekyll
   - theme
   - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+email: adambacon1@hotmail.com
+#disqus_username: disqus_username
 show_hero: true
-
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
-
+github_username: psdevuk
+#facebook_username: facebook_username
+twitter_username: psdevuk
+#instagram_username: instagram_username
+linkedin_username: adam-bacon-993009100
+#medium_username: medium_username
 
 # Theme Settings
 themeColor: "#ff0a16"
@@ -30,20 +28,17 @@ accentDark: "#ffffff"
 lightGray: "#f2f2f2"
 texts: "#333333"
 
-
 # Posts Settings
 show_time_bar: true
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
 
-
 # Advanced Settings
 baseurl: "/ud-flix" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+#google_analytics: "UA-XXXXXXXX-X"
 language: "en"
-
 
 # Build settings
 markdown: kramdown
@@ -78,16 +73,15 @@ plugins:
   - jekyll-paginate-content
 
 # Exclude my node related stuff
-exclude: [
-  'package.json',
-  'package-lock.json',
-  'src',
-  'node_modules',
-  'initpost.sh',
-  'Gemfile',
-  'Gemfile.lock',
-  'gulpfile.js',
-  'README.md'
-]
-
-theme: jekyll-theme-cayman
+exclude:
+  [
+    "package.json",
+    "package-lock.json",
+    "src",
+    "node_modules",
+    "initpost.sh",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "README.md",
+  ]
