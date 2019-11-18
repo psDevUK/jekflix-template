@@ -26,7 +26,7 @@ Powershell Universal Dashboard **is a lot more than just a dashboard** it is a *
 
 ## What is Powershell Universal Dashboard?
 
-There is a great [youtube video](https://www.youtube.com/watch?v=_ckxYyDv4cg) which explains exactly what this awesome module is all about. In a nutshell this is the most popular web framework for powershell. It's is cross-platform powershell module that runs on windows, linux and mac. You can use your existing scripts you have, but allowing them to be integrated into a user interface via a web-browser. Security is built in allowing you to authenticate against Active Directory, Azure Active Directory and others. Hosting your dashboards can be done in AWS, Azure, Docker, IIS or Raspberry Pi.
+There is a great [youtube video](https://www.youtube.com/watch?v=_ckxYyDv4cg) which explains exactly what this awesome module is all about. In a nutshell this is the most popular web framework for powershell. It is a cross-platform powershell module that runs on windows, linux and mac. You can use your existing scripts you have, but allowing them to be integrated into a user interface via a web-browser. Security is built in allowing you to authenticate against Active Directory, Azure Active Directory and others. Hosting your dashboards can be done in AWS, Azure, Docker, IIS or Raspberry Pi.
 
 ### Github Page
 
