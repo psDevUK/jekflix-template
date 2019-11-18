@@ -10,9 +10,6 @@ menu: true
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I started my I.T career way back in the year 2000. I started out on helpdesks, then worked my way to 2nd level support. After spending several years trouble shooting various problems, and manually solving problems, I wanted to look into how I could automate tasks.  So nearly 10 years ago I looked at Powershell.  Since then I have not looked back, I have used my programming skills to solve many different I.T and non I.T issues, by being able to either automate the task, or provide a graphical end-solution for the user. 
+
+## Solving problems before they become a problem
