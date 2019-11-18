@@ -36,7 +36,7 @@ New-UDLayout -Columns 3 -Content {
 
 This is probably the easiest to use layout design to use if you just want to do things in minimal time, as long as you display the number of components to the number of columns defined you will get the desired results.
 
---page-break--
+ --page-break--
 
 ## Formatting with Rows and Columns
 
@@ -59,7 +59,7 @@ You have probably noticed yourself that when you visit the same website on a mob
 
 Find out the final method for designing your layout next...
 
---page-break--
+ --page-break--
 
 ## Grid Layout
 
