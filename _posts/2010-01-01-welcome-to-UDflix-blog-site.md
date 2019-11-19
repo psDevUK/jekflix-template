@@ -7,9 +7,9 @@ description: >-
   This is a blog site dedicated to talking and blogging about Powershell
   Universal Dashboard a web framework for Powershell.
 image: >-
-  /ud-flix/assets/img/UDFLIXs.png
-optimized_image: >-
   /ud-flix/assets/img/UDFLIX.png
+optimized_image: >-
+  /ud-flix/assets/img/UDFLIXs.png
 category: blog
 tags:
   - welcome
