@@ -41,6 +41,6 @@ Materialize is the default theme and components you will be using. There is howe
 
 ## Custom components
 
-On top of having oodles of components to choose from. You also have the ability to create your own custom component for powershell universal dashboard. Honestly this product is so flexible with high
+On top of having oodles of components to choose from. You also have the ability to create your own custom component for powershell universal dashboard. Honestly this product is so flexible with how much you can modify anything being displayed. Having used another product Powershell Studio, and being so limited to what the developers allowed you to use or restricted to the components available within the program, however powershell universal dashboard opens up the doors to any type of customisation which is just great as it allows the inner creator in you to get very creative.
 
 <!--page-->
