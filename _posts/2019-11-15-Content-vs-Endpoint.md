@@ -37,8 +37,6 @@ It is recommend that you wrap the most outer command with an endpoint, then appl
 
 ## Code
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
 ```js
  New-UDElement -Tag 'div' -Endpoint {
                     $DateTime = Get-Date
