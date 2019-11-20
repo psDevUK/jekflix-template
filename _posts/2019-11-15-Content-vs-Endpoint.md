@@ -15,7 +15,7 @@ tags:
 author: psdevuk
 ---
 
-Thanks for taking the time to read this blog. This blog was inspired by the great article <a href="https://ironmansoftware.com/best-practices-for-universal-dashboard-performance/">Adam Driscoll wrote here</a>, and when looking on the forum today it was clear that this is still not talked about enough as some people are not understanding why their dashboard might not be behaving as they expected. So hopefully after reading this post this will become clear, on when to use the **content** parameter and when to use the **endpoint** parameter to display your content. As both of these parameters are used to display what you want the end-user to physically see on the dashboard you have created
+Thanks for taking the time to read this blog. This blog was inspired by the great article <a href="https://ironmansoftware.com/best-practices-for-universal-dashboard-performance/">Adam Driscoll wrote here</a>, and when looking on the forum today it was clear that this is still not talked about enough as some people are not understanding why their dashboard might not be behaving as they expected. So hopefully after reading this post this will become clear, on when to use the **content** parameter and when to use the **endpoint** parameter to display your data. As both of these parameters are used to display what you want the end-user to physically see on the dashboard you have created
 
 > Runspaces allow you to run multiple powershell commands that can all run at the same time instead of having to wait for the previous command to finish.
 
@@ -31,7 +31,7 @@ So it goes without saying one of those fundamental powershell commands will help
 `Get-Command -Module UniversalDashboard -ParameterName Endpoint`
 This will display all the commands that support the **endpoint** scriptblock. It is also important to mention that when using the endpoint scriptblock to display your data dynamically I always use the following two parameters straight after the closing curly brace scriptblock, the `-AutoRefresh` parameter followed by the `-RefreshInterval` parameter then specify a **number** for the **refresh interval** powershell universal dashboard will then refresh just that particular component every X amount of seconds you specify in the `-RefreshInterval` parameter.
 
-\*\* Using both Endpoint and Content
+## Using both Endpoint and Content
 
 It is recommend that you wrap the most outer command with an endpoint, then apply the inner command / component with the content scriptblock. It did take me sometime to realise that the `New-UDColumn` command actually supported the endpoint parameter, meaning I could refresh anything being held in that column on my page if I put the column to use an endpoint, but the data/components inside the column to use content, and it would still be refreshed.
 
