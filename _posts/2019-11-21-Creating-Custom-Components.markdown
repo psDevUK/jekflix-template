@@ -4,8 +4,8 @@ layout: post
 title: Creating Custom Components
 subtitle: Going over the principal of creating custom components
 description: This blog covers creating custom components, take your dashboards to the next level and build a control you specifically require.
-image: https://www.makodesign.com/wp-content/uploads/2018/12/invention.jpg
-optimized_image: https://www.burrosabio.net/wp-content/uploads/Invento-500x277.jpg
+image: https://www.inventorsdigest.com/wp-content/uploads/2019/01/Anatomy-of-an-Invention-1280x640.jpg
+optimized_image: https://www.inventorsdigest.com/wp-content/uploads/2019/01/Anatomy-of-an-Invention-1280x640.jpg
 category: Custom
 tags:
   - custom
@@ -25,7 +25,7 @@ So I have built quite a few custom components now for universal dashboard. So I 
 
 One of the first components I built was something so simple, and great for filling a blank space on your dashboard, yes the react kawaii component:-
 
-![Ghost]({{site.baseurl}}/assets/img/ghost.jpg "Spooky right")
+![Ghost]({{site.baseurl}}/assets/img/ghost.jpg "Spooky ghost")
 
 I used the kawaii cup and ghost in one dashboard I am using, these really do a great job of just filling some space on your dashboard.
 
