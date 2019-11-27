@@ -131,23 +131,22 @@ I wanted to see that this component could dynamically tell me how many services 
 
 ```js
 Import-Module -Name UniversalDashboard.Community
-Import-Module UniversalDashboard.UDIndicator
+Import-Module -Name UniversalDashboard.UDIndicator
 Get-UDDashboard | Stop-UDDashboard
-$theme = get-udtheme DarkRounded
 Start-UDDashboard -Port 10005 -Dashboard (
-  New-UDDashboard -Title "Powershell UniversalDashboard" -theme $theme -Content {
+  New-UDDashboard -Title "Powershell UniversalDashboard" -Content {
     New-UDLayout -Columns 6 -Content {
-      New-UDHeading -Size 4 -Text "UDIndicator Showing Running Services" -Color "#7261a3"
-      $total = (get-service).count
-      $running = (get-service | ? { $_.Status -eq 'Running' }).count
-      New-UDIndicator -Value $running -MaxValue $total -Width 200
+      New-UDHeading -Size 4 -Text "Running Services"
+      $services = get-service
+      $running = ($services | ? { $_.Status -eq 'Running' })
+      New-UDIndicator -Value $running.count -MaxValue $services.count -Width 200
     }
 
   }
 )
 ```
 
-Boom I got a working powershell universal dashboard component that has multiple parameters.
+Boom I got a working powershell universal dashboard component that has multiple parameters. **Big up to @BoSen29 for the modification on the above example**
 
 ## Next step
 
