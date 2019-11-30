@@ -74,7 +74,7 @@ export default <%=$PLASTER_PARAM_ControlName%>
 
 So now for some **more code** we need to call each of these **props** we have defined in the **JSX** in the **powershell function** file.
 
-```js
+```
 function <%=$PLASTER_PARAM_CommandName%> {
     param(
         [Parameter()]
@@ -129,7 +129,7 @@ So I like to write a simple as possible dashboard to test that my component will
 
 I wanted to see that this component could dynamically tell me how many services were running out of all the services on my computer. So I came up with the following script:-
 
-```js
+```
 Import-Module -Name UniversalDashboard.Community
 Import-Module -Name UniversalDashboard.UDIndicator
 Get-UDDashboard | Stop-UDDashboard
