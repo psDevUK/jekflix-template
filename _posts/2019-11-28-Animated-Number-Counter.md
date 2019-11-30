@@ -180,7 +180,7 @@ This was a little demo example I knocked up
 
 I did this using some simple code:-
 
-```js
+```
 Import-Module -Name UniversalDashboard.Community
 $theme = get-udtheme DarkRounded
 Import-Module -Name UniversalDashboard.UDNumber
@@ -205,6 +205,10 @@ Start-UDDashboard -Port 10005 -Dashboard (
     }
 ) -AutoReload
 ```
+
+## Top tip
+
+So when I am developing a dashboard, I like to use the `-AutoReload` parameter on my dashboard. This means that when I change my code, and save it, this will automatically reload the dashboard in my browser.  This means I don't have to even run my script, and I don't even have to refresh my browser, as the `-AutoReload` parameter takes care of that.  This means less faffing about and more dashboard development time.
 
 ## More Dynamic
 
