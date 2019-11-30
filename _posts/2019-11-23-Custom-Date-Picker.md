@@ -37,7 +37,7 @@ In the majority of the forms I built I used to use a date picker to choose a sta
 
 Although there was not a specific **start and end date picker** in powershell universal dashboard, I was able to construct one which worked without issues. Here is my code for how I did this:-
 
-```js
+```
 New-UDColumn -Size 3 -Content {
     New-UDCard -Endpoint {
         New-UDInput -Title "Select Range (DAY/MONTH/YEAR)" -Id "DateForm2" -Content {
@@ -88,7 +88,7 @@ So this is a **complete** dashboard page which shows how I import this module an
 
 Most of the work I do is to do with **SQL** and that normally has the date format in `yyyy-mm-dd` format which is how I am formatting my output for the toast message below:-
 
-```js
+```
 Import-Module -Name UniversalDashboard.Community
 Import-Module -Name UniversalDashboard.UDDatePicker
 Start-UDDashboard -Port 10005 -Dashboard (
