@@ -184,7 +184,7 @@ function <%=$PLASTER_PARAM_CommandName%> {
 
 ```
 Import-Module UniversalDashboard.Community
-Import-Module "C:\UD\UDSlider\Slider\src\output\UniversalDashboard.udslider\UniversalDashboard.udslider.psd1"
+Import-Module UniversalDashboard.UDSlider
 Get-UDDashboard | Stop-UDDashboard
 #$endpointinit = New-UDEndpointInitialization -Module @("UniversalDashboard.UDNumber")
 $theme = get-udtheme "DarkRounded"
@@ -212,4 +212,4 @@ As mentioned this whole thing was inspired by the UDantd library Alon is working
 
 ## Conclusion
 
-I have now posted this module to the powershell gallery I hope this component is useful for a dashboard you are working on.
+I have now posted this module to the powershell gallery I hope this component is useful for a dashboard you are working on. Thanks for taking the time to read this blog
