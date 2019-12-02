@@ -186,7 +186,6 @@ function <%=$PLASTER_PARAM_CommandName%> {
 Import-Module UniversalDashboard.Community
 Import-Module UniversalDashboard.UDSlider
 Get-UDDashboard | Stop-UDDashboard
-#$endpointinit = New-UDEndpointInitialization -Module @("UniversalDashboard.UDNumber")
 $theme = get-udtheme "DarkRounded"
 $dashboard = New-UDDashboard -Title "New-UDSlider" -theme $theme -Content {
     New-UDRow -Columns {
