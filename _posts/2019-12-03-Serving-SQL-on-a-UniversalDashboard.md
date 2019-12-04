@@ -28,11 +28,11 @@ Please remember to <a href="https://docs.universaldashboard.io/">check the offic
 
 ## Lets get started
 
-> Whenever I am using SQL on universaldashboard <a href= "https://www.powershellgallery.com/packages/Invoke-SqlCmd2/1.6.4">I use the following module here</a>. If you do not have it already and you want to follow along then go get your copy now.
+> Whenever I am using SQL on universaldashboard <a href= "https://gallery.technet.microsoft.com/ScriptCenter/7985b7ef-ed89-4dfd-b02a-433cc4e30894">I use the following module here</a>. If you do not have it already and you want to follow along then go get your copy now. This is a pretty old but reliable function I have used for years.
 
 So I am assuming that you can write basic SQL queries to return data, as these blogs are dedicated to **powershell universaldashboard** so without further a-do lets get started.
 
-Hopefully you had a gander at the official documentation and looked at how to load functions into your dashboard. As when I first got using this product, I was being a douche-bag and placing the whole function inside every single `-Content` or `-Endpoint` script block as I didn't understand how to use my function the once throughout my dashbaord, as in just calling the function name to run the function. As placing the whole function code block numerous times throughout your script, does make one super-long script.
+Hopefully you had a gander at the official documentation and looked at how to load functions into your dashboard. As when I first got using this product, I was being a douche-bag and placing the whole function inside every single `-Content` or `-Endpoint` script block as I didn't understand how to make my function be loaded just once and be used throughout my dashbaord, as in just calling the function name to run the function. As placing the whole function code block numerous times throughout your script, does make one super-long script. So please do not use that method of placing the entire function in each script block.
 
 Instead I should have been doing this, and this is how I roll now:-
 
@@ -120,11 +120,11 @@ $Session:MyNum = Invoke-Sqlcmd2 -ServerInstance SQL-SERVER -Database COMPLAINT -
 Start-UDDashboard -Dashboard $dashboard -Port 10005
 ```
 
-This is a complete dashboard! Lets note some important things here. First thing I did was to use place the function at the top of my script block, I then imported the universaldashboard module, then I imported a custom component module I built which I blogged about previously. So **two** custom things need to be imported into my universaldashboard session a custom fuction and a custom module. This was done by using `$Init = New-UDEndpointInitialization -Function @("Invoke-Sqlcmd2") -Module @("UniversalDashboard.UDNumber")` to hold these **custom function and custom module** then if you look carefully I am binding the cariable I initialised to hold this information in, into the `-EndpointInitialization` parameter on the dashboard.
+This is a complete dashboard! Lets note some important things here. First thing I did was to use place the function at the top of my script block, I then imported the universaldashboard module, then I imported a custom component module I built which I blogged about previously. So **two** custom things need to be imported into my universaldashboard session, a custom fuction and a custom module. This was done by using `$Init = New-UDEndpointInitialization -Function @("Invoke-Sqlcmd2") -Module @("UniversalDashboard.UDNumber")` to hold the **custom function and custom module** then if you look carefully I am binding the variable I initialised to hold this information in, into the `-EndpointInitialization` parameter on the dashboard.
 
 This now means I can use `invoke-sqlcmd2` and `new-udcounter` anywhere I want in my dashboard. Cool beans. So moving on you see I chose to display the output from SQL into a card component, in that card component it will display the number of complaints I have raised.
 
-But how did I dynamically get **my complaints**? Simple, as this dashboard is linked to a login page with authentication (**this is not shown in the example**) that means I can use the `$user` variable which holds the current username of the person logged in. I then refrence that username in a **WHERE** clause to get me my complaints.
+But how did I dynamically get **my complaints**? Simple, as this dashboard is linked to a login page with authentication (**this is not shown in the example**) that means I can use the `$user` variable which holds the current username of the person logged in. I then refrence that username in a **WHERE** clause of my SQL query to get me my complaints.
 
 The other important thing to note in this script block is the use of the `$Session` variable which is used to store the number of complaints I have raised. More information on the session variable scope can be found in the official documentation, but this variable is storing this variable per session which is established once the user is connected to the dashboard. I used this as I am calling this same session variable in other endpoints on my official script.
 
@@ -136,7 +136,7 @@ That is in a nutshell how you obtain SQL data in powershell universaldashboard. 
 
 So the first way I like to display my data is to use the `new-udgrid` command which will look something like <a href="https://poshud.com/New-UDGrid">this</a>
 
-I believe this technology used to display the output is using griddle. This displays the data in a grid fashion and has a live dynamic search bar at the top of the grid which can be used to filter the results. It also has the ability to display the data in ascending or descending format on any chosen column. So again referencing the complaint database I built to show me in udgrid format all of the complaints I have raised
+I believe the technology used to display the output for `New-UDGrid` is using griddle. This displays the data in a grid fashion and has a live dynamic search bar at the top of the grid which can be used to filter the results. It also has the ability to display the data in ascending or descending format on any chosen column. So again referencing the complaint database I built to show me in udgrid format all of the complaints I have raised
 
 ```
          New-UDGrid -Id "mCalls" -Title "My Complaints" -Headers @("ID", "Account", "Depot", "Status", "Problem", "Product", "Incident", "Assigned", "Logged") -Properties @("ComplaintID", "AccountName", "DepotName", "StatusSituation", "ProblemType", "ProductName", "IncidentDate", "AssignedTo", "LoggedDate") -DefaultSortColumn "ComplaintID" -PageSize 10  -Endpoint {
@@ -190,7 +190,7 @@ Anyways this is `new-udgrid` and is great for displaying data from SQL. This als
 
 ## Cache big data
 
-So in my job for one of the many databases I connect to, I have to use a given **public** database of the actual database, which only contains views. So this does limit me to having to use the given view to obtain the required data. Now this wouldn't be a problem if it didn't take over a minute sometimes to get data that I feel should taje 10 seconds or less in SQL. But as mentioned I am limited to the access I have in this particular database.
+So in my job for one of the many databases I connect to, I have to use a given **public** database of the actual database, which only contains views. So this does limit me to having to use the given view to obtain the required data. Now this wouldn't be a problem if it didn't take over a minute sometimes to get data that I feel should take 10 seconds or less in SQL. But as mentioned I am limited to the access I have in this particular database.
 
 Now you may think that I am just on a moan and rant, well yes kind of, but there is a reason behind this. I bring you the solution which is to **cache big data** to get it to display a lot quicker on your dashboard.
 
