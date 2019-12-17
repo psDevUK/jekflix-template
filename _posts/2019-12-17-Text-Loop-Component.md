@@ -107,8 +107,8 @@ function New-UDTextLoop {
 
 ## Demo
 
-![placeholder](https://twitter.com/i/status/1206346451418308613 "Large example image")
-![placeholder](https://twitter.com/i/status/1206016953388806144 "Medium example image")
+![placeholder](https://user-images.githubusercontent.com/44211223/71037746-3926d780-2118-11ea-880c-7ce95493f76d.gif "Large example image")
+![placeholder](https://user-images.githubusercontent.com/44211223/71037835-6a070c80-2118-11ea-84de-53a4c17305ad.gif "Medium example image")
 
 ## Conclusion
 
