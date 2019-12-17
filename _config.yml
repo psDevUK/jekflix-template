@@ -1,13 +1,13 @@
 # Site Settings
 name: Powershell Blog
 title: UDFLIX a Blogtastic Site
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+description: UDFlix is a dedicated Powershell Universal Dashboard website
 tags:
   - blog
   - template
   - jekyll
   - theme
-  - netlify
+  - universaldashboard
 email: adambacon1@hotmail.com
 #disqus_username: disqus_username
 show_hero: true
