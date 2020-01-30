@@ -62,7 +62,6 @@ Start-UDDashboard -Port 1000 -AutoReload -Dashboard (
  ```
 
 ![placeholder](https://raw.githubusercontent.com/psDevUK/Cloud-Tag/master/Demo.gif "example demo")
-)
 
 ## Further Information
  Please do spend the time to inspect the function of this component, as you will see there are a few paramters to give you extra custom control over the look and feel
