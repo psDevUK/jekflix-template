@@ -66,15 +66,15 @@ Start-UDDashboard -Port 1000 -AutoReload -Dashboard (
 
 ## Further Information
  Please do spend the time to inspect the function of this component, as you will see there are a few paramters to give you extra custom control over the look and feel
-      * height
-      * padding
-      * fontFamily
-      * rotate
-      * colorarray
-      * data
-      * fontSize
-      * spiral
-      * timeInterval
+- height
+- padding
+- fontFamily
+- rotate
+- colorarray
+- data
+- fontSize
+- spiral
+- timeInterval
 
 ## Conclusion
   This was a fun component to release, and since my company I work for has implemented new core values and got lots of posters up everywhere with the new core values, I thought that these core values would look splendid in a TagCloud and placed on the main landing screen.  Which is now how my dashboard looks.  I hope you also find the space for this component on your dashboard.
