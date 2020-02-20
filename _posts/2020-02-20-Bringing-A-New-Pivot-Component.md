@@ -4,8 +4,8 @@ layout: post
 title: Bringing A New Pivot Component
 subtitle: A brand new Excel style pivot table, but with a lot more tricks. Create amazing data results like a heat row pivot table in 5 simple mouse clicks.
 description: This blog is all about the new pivot component I have released for universaldashbord.
-image: https://i0.wp.com/ridicurious.com/wp-content/uploads/2019/12/6.png
-optimized_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShB9lmI0UHEV02eiKKqWjXc9Y6aE7ZU6fXj1I5-nYyJ-us1gbYcA&s
+image: https://dzone.com/storage/temp/9392443-pivot-react.png
+optimized_image: https://dzone.com/storage/temp/9392443-pivot-react.png
 category: component
 tags:
   - Pivot
