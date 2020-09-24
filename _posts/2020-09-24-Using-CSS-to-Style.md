@@ -38,3 +38,34 @@ So before I actually start making all my awesome GIFs for this blog [make sure y
 So I recorded a little GIF to go with this, so basically say you want to change the SIDE NAV colour but you don't have a scooby-doo on how to do this...so step 1 is to right click on the 'thing' you are interested in changing then left clicking on inspect element. This will then open up the CSS used in the page. Now if you move your mouse about you will see it highlights the bits of the page that those secitions of the code on the left hand side refer to. So after hovering the mouse about I see I need the line which has already been highlighted the `ul id="sidenav"` so with this selected, you will see I move to the right side, which shows me all the CSS properties to play with. I scroll down to where I see the colour, and I select a different colour, I see real-time the part of the page it is changing and if this is or isn't the thing I want changed.  Once I am happy with the changes I copy the rule by right clicking on it and slecting copy rule.  This is crucial for the next stage.
 
 ![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/CSS1.gif "CSS example")
+
+So if you copied the rule, and then paste this into either your code editor or notepad you should have something similar to:-
+```
+.sidenav {
+	color: #fff;
+	box-shadow: none;
+	border-radius: 8px;
+	margin-top: 75px;
+	background-color: #ea0e0e;
+	z-index: 0;
+	height: 83%;
+}
+```
+You can see there are 7 different things you could change on this, but we only changed the colour, so we can trim this down to:-
+
+```
+New-UDTheme -Name "Basic" -Definition @{
+'.sidenav' =@{
+'background-color' = "#ea0e0e"
+}
+```
+But what if I also want to make the hamburger menu a tad bigger...? No problem! Simply repeat the process, in the GIF below, I am using the method of just scrolling the mouse about on the code on the left to see the parts of the page being highlighted.  Once I see the hamburger menu being highlighted I stop, click on the code, I see it can be expanded further, so I expand it, then I go to the right hand side to look at all the CSS properties. I notice a vertical alignment, and a font size which both look interesting things to change. Remember once you make the change and you think it looks cool copy the rule and paste it somewhere:-
+```
+.svg-inline--fa {
+	display: inline-block;
+	font-size: 24px;
+	height: 1em;
+	overflow: visible;
+	vertical-align: -0.325em;
+}
+```
