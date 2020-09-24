@@ -59,6 +59,7 @@ New-UDTheme -Name "Basic" -Definition @{
 'background-color' = "#ea0e0e"
 }
 ```
+
 But what if I also want to make the hamburger menu a tad bigger...? No problem! Simply repeat the process, in the GIF below, I am using the method of just scrolling the mouse about on the code on the left to see the parts of the page being highlighted.  Once I see the hamburger menu being highlighted I stop, click on the code, I see it can be expanded further, so I expand it, then I go to the right hand side to look at all the CSS properties. I notice a vertical alignment, and a font size which both look interesting things to change. Remember once you make the change and you think it looks cool copy the rule and paste it somewhere:-
 ```
 .svg-inline--fa {
@@ -69,3 +70,18 @@ But what if I also want to make the hamburger menu a tad bigger...? No problem! 
 	vertical-align: -0.325em;
 }
 ```
+![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/CSS2.gif "CSS example")
+
+So now you should have a mini theme of your own in the building like so:-
+```
+New-UDTheme -Name "Basic" -Definition @{
+'.sidenav' =@{
+'background-color' = "#ea0e0e"
+}
+'.svg-inline--fa' =@{
+	'font-size' = "24px"
+	'vertical-align' = "-0.325em"
+}
+```
+We have now modified a few bits of universaldashboard and put them into a custom theme. Then you can add the custom theme you build to your dashboard [using this link](https://docs.universaldashboard.io/look-and-feel/themes#themes) I hope this gives you the building blocks you need to get going yourself.
+
