@@ -30,7 +30,7 @@ Ok so I am not a web developer by trade, and in the grand scheme of things, I do
 
 
 ## Lets get going then...
-There is no right or wrong when it comes to what browser you use to surf the internet, but for whatever reasons I use Firefox as my browser of choice to surf the net, and do all my CSS in. Tes the great thing with CSS is you can edit it on-the-fly so you see changes in real time, the only down-side is when the page refreshes, you loose the changes you make.
+There is no right or wrong when it comes to what browser you use to surf the internet, but for whatever reasons I use Firefox as my browser of choice to surf the net, and do all my CSS in. The great thing with CSS is you can edit it on-the-fly so you see changes in real time, the only down-side is when the page refreshes, you loose the changes you make.
 
 So before I actually start making all my awesome GIFs for this blog [make sure you bookmark this site for CSS colours](https://coolors.co/) it gives you amazing colours that all blend really nicely together, and it is where I go to get my inspirations for the colour layout of my CSS theme I cook up. 
 
@@ -85,3 +85,20 @@ New-UDTheme -Name "Basic" -Definition @{
 ```
 We have now modified a few bits of universaldashboard and put them into a custom theme. Then you can add the custom theme you build to your dashboard [using this link](https://docs.universaldashboard.io/look-and-feel/themes#themes) I hope this gives you the building blocks you need to get going yourself.
 
+## Final Notes
+So there is a few more things to mention without giving you a brain over-load. One of them being is the *`!important`* tag you can use after specifiying the attribute you want to change. Basically this tag over-rides any settings that might already be in-place. So use this with caution, and only use it if you have to. Lastly, without making things to confusing, but the browser might not actually show you all the properties, but don't worry, if you click just underneath a setting in he browser, you get to add another CSS style. So for example, the side nav menu using the *"default"* theme gives a different background colour on the navigation links, which is the ```'.sidenav li > a'``` bit of code, inspecting it in the browser, shows no background-color CSS setting, so I created it to overcome the issue, however this didn't seem to apply unless I used the ```!important``` at the end of the CSS setting as shown below
+
+```
+$Theme = New-UDTheme -Name "Test" -Definition @{
+    '.sidenav'        = @{
+        'background-color' = "#0d3b66"
+    }
+    '.sidenav li > a' = @{
+        'color' = "white"
+        'background-color' = "#0d3b66 !important"
+    }
+} -Parent "default"
+```
+
+## Conclusion
+Only after doing this, I thought DOH! I did CSS as my first post.  Well hopefully this was a slightly different way of explaining it and how to go about implementing your own theme, and using it with existing themes.
