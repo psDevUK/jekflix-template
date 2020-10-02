@@ -50,7 +50,7 @@ No official answer had been posted, I had actually taken the afternoon off work,
 ## Demo of component
 
 ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/MultiLineFinal.gif?raw=true "Component Demo")
-
+[This component is now on the marketplace download your copy here](https://marketplace.universaldashboard.io/Dashboard/UniversalDashboard.UDMultiLine)
 ## Code behind the Demo
 
 ```
@@ -83,6 +83,31 @@ Start-UDDashboard -Port 10004 -Dashboard (
 
 ```
 
+## New-UDSingleLine
+Not that I am not bigging up this component as much as the multi line component, I only built the single line to keep the same look and feel if you wanted a single line input. I believe consistency is key when building good looking dashboards. So this component has all the same parameters as above, but **the single line component does not include the Rows parameter and also does not include the Placeholder parameter** all the other parameters which are descibed in the **New-UDMultiLine** above will also work in the **New-UDSingleLine**
+![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/SingleLine.gif?raw=true "Single Line Demo")
+[Get your copy of this custom component from the market place right here](https://marketplace.universaldashboard.io/Dashboard/UniversalDashboard.UDSingleLine)
+## Few Important things to consider
+ So I have not used this component yet in production, just merely proved that it works with UD and can read the text entered into the component.  However I did notice that the button did change shape a bit depending on how much was typed column size etc. So I fixed this by tweaking the CSS behind the component, which I explained how to do in a previous blog. So please note to keep the **edit** button from resizing itself I used the following CSS in a custom theme, and combined this with the parent theme like so:-
+ ```
+ $Theme = New-UDTheme -Name "demo" -Definition @{
+    '.styles_Editext__buttons_container__1kphL' = @{
+        'display' = "block ruby !important"
+    }
+} -Parent "Default"
+ ```
+That is why that is in the code.  Please also remember which I have documented in a previous blog, as this is a custom component, as well as importing the custom component into powershell UD like so:-
+```
+Import-Module -Name UniversalDashboard.UDMultiLine
+```
+You  will also have to include this **powershell module** as an **New-UDEndpointInitialization** so I am doing this in the below code by storing the **New-UDEndpointInitialization** as a variable named `$endpointinit` then applying that into the dashboard using `-EndpointInitialization $endpointinit` this is all shown below:-
+```
+$endpointinit = New-UDEndpointInitialization -Module @("UniversalDashboard.UDMultiLine")
+Get-UDDashboard | Stop-UDDashboard
+Start-UDDashboard -Port 10004 -Dashboard (
+    New-UDDashboard -Title "Powershell UniversalDashboard" -Theme $Theme -EndpointInitialization $endpointinit -Content {
+```
+By doing these steps you will now be able to access this component in the endpoint script block.  Again I covered that in a previous blog. Although the demo code I have posted is simple, it proves that this component as long as you give the component an `-Id` like I did `New-UDMultiLine -Id "MULTILINE"` I can then access that component in my dashboard from another control by referencing the **ID** and the attributes the component has, which in this case is just the **text** I did this by using `$Session:mtext = ((Get-UDElement -Id "MULTILINE").Attributes.text)` you can find out more about **Session** variables on the official documentation page for UD, but I decided this would by the best variable to store this in. 
+
 ## Conclusion
- 
  Not that I am ever looking for things to take on, as I already got 4 kids to look after, but this did turn out a fun challenge to take on, and prove any doubters out there that this could be done.  Yeah I might of taken the slightly longer route to achieve the goal, but now there is a component out there which can handle multiplle lines of text and be able to get what was typed into the **textarea** by reading the value of the text being held in the state of the component. Next step for me is to publish this to the powershell gallery. To keep your dashboard looking consistent I will do the single line of this same component as well.  Thanks for reading.
