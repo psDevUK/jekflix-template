@@ -1,5 +1,5 @@
 ---
-date: 2020-10-02 01:12:40
+date: 2020-10-04 01:12:40
 layout: post
 title: Various New Custom Components
 subtitle: 5 new custom components to blog about.
