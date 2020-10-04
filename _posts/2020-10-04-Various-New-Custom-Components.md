@@ -330,8 +330,6 @@ Which then produced this beautiful looking dashboard with ease
 
 ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/UDGallery.gif?raw=true "Component Demo")
 
-https://github.com/psDevUK/ud-flix/blob/master/assets/img/UDGallery.gif?raw=true
-
 ## Conclusion
  
  Been probably the longest blog I done so far writing all this up.  I hope this also goes to show the dedication put into developing these new components, and that some can take a lot longer than other components to develop. I wouldn't have seen myself being able to do this stuff a few years back, but using UniversalDashboard really does make me believe that anything is possible if you do a bit of research and development you can pull off some really sweet looking components.  It still blows my mind that you can have any amazing looking dashboard and it is all running off of Powershell. 
