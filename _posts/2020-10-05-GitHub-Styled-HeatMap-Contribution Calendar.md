@@ -224,5 +224,9 @@ Start-UDDashboard -Dashboard $dashboard -Port 10005
 
 ## Conclusion
  
+ [You can download the component right here from the powershell gallery](https://www.powershellgallery.com/packages/UniversalDashboard.GitHubHeatMap/1.0.0)
+ 
  I found this a super tough component to build, as I am no react developer, but just trying to get the tooltip to display was so frustrating.  I know this component is far from perfect, as you will have to most likely implement your own CSS as I only cover from the values 1 to 100. [Thankfully I do have a blog on using CSS to style your dashboard, in-fact I have two blogs but this is my latest](https://psdevuk.github.io/ud-flix/Using-CSS-to-Style/) and if you have a butchers at that blog post, then I am sure you will be able to design your own theme style for your data in this component. Please remember the date formats should be in **YYYY-MM-DD** format, as that is the type being used on the demo pages, so stuck with that when passing the data in the hashtable array.  
  If you have a collection of dates and a value, then please do have a go at using this component. Thank you for reading. 
+ 
+ 
