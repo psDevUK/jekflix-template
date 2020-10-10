@@ -120,9 +120,55 @@ function Get-GithubRepository {
     )
 ```
 
- I hope after giving some sample code, and having a website to test this component in to figure out what parameters you want to call, that you will add this to your dashboard.
+ I hope after giving some sample code, and having a website to test this component in to figure out what parameters you want to call, that you will add this to your dashboard. [You can now find this Github repository social component listed right here for download](https://marketplace.universaldashboard.io/Dashboard/UniversalDashboard.GithubRepository) and [I have listed the Github user social component right here for download](https://marketplace.universaldashboard.io/Dashboard/UniversalDashboard.GithubUser)
+ 
+## But wait there's more...
 
+ Ok since developing this component [I found this really sweet looking Github component](https://www.npmjs.com/package/@uiw/react-github-corners) so I went to work on building this as a component and everything worked as expected.  All the parameters listed on the **npmjs** page have been included into this component.  So it's very simple to use and looks great on a dashboard
+ 
+ ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/GitHubCornerIcon.gif?raw=true "Component Demo")
+ 
+ ## Demo Code 
+ 
+ ```
+ Import-Module UniversalDashboard
+Import-Module UniversalDashboard.GithubCorner
+Get-UDDashboard | Stop-UDDashboard
+$dashboard = New-UDDashboard -Title "New-GitCorner" -Content {
+    New-GithubCorner -id "Github_Corner" -HyperLink "https://github.com/psDevUK" -Size 120 -Color "#FFD447" -Background "#3f51b5" -Position "right" -zIndex 1
+}
+
+Start-UDDashboard -Dashboard $dashboard -Port 10005
+ ```
+ ## Parameter List
+ 
+ ```
+  param(
+        [Parameter()]
+        [string]$Id = (New-Guid).ToString(),
+        [Parameter()]
+        [string]$HyperLink,
+        [Parameter()]
+        [int]$Size,
+        [Parameter()]
+        [ValidateSet("left", "right")]
+        [string]$Position,
+        [Parameter()]
+        [string]$Color,
+        [Parameter()]
+        [string]$Background,
+        [Parameter()]
+        [int]$zIndex,
+        [Parameter()]
+        [bool]$Fixed = $false
+    )
+ ```
+ 
+   So yeah maybe I could of used **OctoCat** instead of **Color** but I think this component is easy enough to understand with the parameters, that I will not ramble on about them.  Well I could see this being added to the I.T dashboard I got at work, to remind me homies that this kid is part of something bigger, the github community
+ ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/GitHub.gif?raw=true "Another Demo")
+ Just as I think this component looks so sweet, I thought I would include two demo GIFs to go with it.  I hope this finds its way to your dashboard real soon.
+ 
 ## Conclusion
 
-  I thought this was another good mini project to build this component for UniversalDashboard and hopefully you have enjoyed reading about it, and maybe just maybe it might find a way to your dashboard. Or if you just want to big-up this website then you have my full permission to include a fab on every page linking to the **ud-flix** repository I created to host and maintain this webpage.  
+  I thought this was another good mini project to build these components for UniversalDashboard and hopefully you have enjoyed reading about it, and maybe just maybe it might find a way to your dashboard. Or if you just want to big-up this website then you have my full permission to include a fab on every page linking to the **ud-flix** repository I created to host and maintain this webpage.  
  Once again thank you for reading. 
