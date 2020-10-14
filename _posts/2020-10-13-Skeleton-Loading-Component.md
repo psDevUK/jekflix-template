@@ -2,7 +2,7 @@
 date: 2020-10-13 20:40:20
 layout: post
 title: Skeleton Loading Component
-subtitle: Halloween is near so here is my skeleton all ready time for halloween
+subtitle: Halloween is near so here is my skeleton all ready in-time for halloween
 description: This blog covers the latest component I have built for Universal Dashboard. The blog will cover this new component and how to it in your dashboard
 image: https://i.ytimg.com/vi/Fabqf3c1V70/maxresdefault.jpg
 optimized_image: https://i.ytimg.com/vi/Fabqf3c1V70/maxresdefault.jpg
@@ -22,7 +22,7 @@ So I am back with another blog, I didn't think I would be writing another blog s
 ## React Loading Skeleton
 
  So a good while back I did come across a skeleton loading component, and I did get it to work, but never released it as a component, as I don't think I could get it to hide. Well it was a long time ago, and I basically gave up and moved onto something else. 
-  However this evening as I was browsing [npmjs.com](https://www.npmjs.com/) which is where I found all the components I build I stumbled back on a [react loading skeleton which can be found here](https://www.npmjs.com/package/react-loading-skeleton) I looked at the dependencies as it's always nice if it is a low number, and this component lists one dependency.  Sadly that one dependency had another dependancy and another and another and so on, so if your wondering how many exactly here is the true number of dependencies
+  However this evening as I was browsing [npmjs.com](https://www.npmjs.com/) which is where I found all the components I have built so far, I stumbled back on a [react loading skeleton which can be found here](https://www.npmjs.com/package/react-loading-skeleton) I looked at the dependencies as it's always nice if it is a low number, and this component lists one dependency.  Sadly that one dependency had another dependancy and another and another and so on, so if your wondering how many exactly here is the true number of dependencies
 ```
 react-loading-skeleton
 @emotion/core
@@ -142,4 +142,4 @@ Start-UDDashboard -Port 1000 -AutoReload -Dashboard (
 
 ## Conclusion
 
-  I thought this component looked really cool a while back, but didn't fully get round to completing the project. So really happy I spent the time tonight to pull this off, and I will be adding this to the powershell gallery and universaldashboard market-place very soon.
+  I thought this component looked really cool a while back, but didn't fully get round to completing the project. So really happy I spent the time tonight to pull this off, this componenet can now be found on the [UniversalDashboard market place right here](https://marketplace.universaldashboard.io/Dashboard/UniversalDashboard.UDSkeleton)
