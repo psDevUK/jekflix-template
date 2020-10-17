@@ -17,7 +17,7 @@ author: psdevuk
 
 ## Welcome
 
- Wasn't planning on any blogs as I actually been really busy lately with work and life. But when a fellow dashboard user reaches out ofr some assistance it's just to hard for me to say know.  So without doing a Conner McGregor and releasing the personal DM basically I was asked by another UniversalDashboard user if I could add the ability to set the initial date on the **UniversalDashboard.UDSelectDateTime** component I release a while back.
+ Wasn't planning on any blogs as I actually been really busy lately with work and life. But when a fellow dashboard user reaches out for some assistance it's just to hard for me to say no.  So without doing a Conner McGregor and releasing the personal DM basically I was asked by another UniversalDashboard user if I could add the ability to set the initial date on the **UniversalDashboard.UDSelectDateTime** component I release a while back.
  Weirdly enough although I could think of several reasons to use this component, I never actually used this specific component I built for any of my dashboards. So why did I build it then?
 
 ## The original Story Behind The Component
@@ -116,8 +116,6 @@ Start-UDDashboard -Port 1000 -AutoReload -Dashboard (
 ## Conclusion
 
   Not that I don't have enough to deal with (I have 4 daughters) the challenge of adding the one additional parameter requested was super tricky to pull off, I encourage you to have a butchers of the JSX file included with the module to see all the magic behind the component.
-Adding the ability to select a specific start date did take numerous builds, and also involved me tweeting **BoSen29** who is based outside the UK so this was an international call for help, and he was kind enough to send me some links which would ultimately lead to
-me solving the puzzle. This request was on Friday, and I managed to pull it off by Saturday morning, so I was really happy with the results, despite this taking me lots more goes than I initially planned to actually nail this. I looked at the main website of this component which
-[can be found by clicking on this link](https://reactdatepicker.com/) and noticed there were some cool additional props I could add so [went to this documentation page on all of the props available on this component](https://github.com/Hacker0x01/react-datepicker/blob/master/docs/datepicker.md)
+ Adding the ability to select a specific start date did take numerous builds, and also involved me tweeting **BoSen29** who is based outside the UK so this was an international call for help, and he was kind enough to send me some links which would ultimately lead to me solving the puzzle. This request was on Friday, and I managed to pull it off by Saturday morning, so I was really happy with the results, despite this taking me lots more goes than I initially planned to actually nail this. I looked at the main website of this component which [can be found by clicking on this link](https://reactdatepicker.com/) and noticed there were some cool additional props I could add so [went to this documentation page on all of the props available on this component](https://github.com/Hacker0x01/react-datepicker/blob/master/docs/datepicker.md) and added these as additional parameters to the component to allow further customisation of the component, and get it to behave how you want it to for the users accessing your dashboard.
  I hope this has been a good read and that this component will find it's way to your dashboard. 
  
