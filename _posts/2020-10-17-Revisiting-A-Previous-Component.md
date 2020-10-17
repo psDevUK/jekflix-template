@@ -1,5 +1,5 @@
 ---
-date: 2020-10-13 20:40:20
+date: 2020-10-17 18:20:20
 layout: post
 title: Revisiting A Previous Component
 subtitle: I have updated the date and time component I released a while back
