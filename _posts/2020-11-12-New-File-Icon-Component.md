@@ -87,4 +87,5 @@ Start-UDDashboard -Port 10005 -Dashboard (
 ## Conclusion
 
  End-users are wonderful beings, for most of us they are the reason are job may exist. To serve the end-user. So I figured if your dashboard is serving any specific file types, or you have an upload but need certain filetypes uploading then this is a perfect component to use. I also thought it was quite stylish. I am looking to publish this on the powershell gallery and will update with the link once posted.
+ [GET THIS AWESOME POWERSHELL MODULE FOR YOUR DASHBOARD BY CLICKING ON THIS LINK](https://www.powershellgallery.com/packages/UniversalDashboard.UDFileIcon/1.0.0)
 
