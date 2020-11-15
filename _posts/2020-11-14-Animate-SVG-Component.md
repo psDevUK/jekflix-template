@@ -79,4 +79,5 @@ Start-UDDashboard -Port 10005 -Dashboard (
 ## Conclusion
 
  Once again this component is really for the end-user of your dashboards, to look at in amazement, and think wow our I.T person is one cool human being. I thought it looked fancy enough to make into it's own component, and will only serve to make your page look a bit more bling-tastic. I hope you enjoyed reading this blog and that this component finds its way to your dashboard you are building.
+ ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/svg.gif?raw=true "Another Example")
 
