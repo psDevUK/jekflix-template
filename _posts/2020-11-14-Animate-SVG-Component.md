@@ -17,7 +17,7 @@ author: psdevuk
 
 ## Welcome
 
- Wow this blog site is officially one year old. I wasn't expecting to be blogging again so soon, but I have recently published 4 new powershell modules to the powershell gallery, and this is the 4th module, but I figured this could to with a bit of explaining.
+ Wow this blog site is officially one year old. I wasn't expecting to be blogging again so soon, but I have recently published 4 new powershell modules to the powershell gallery, and this is the 4th module, but I figured this could to with a bit of explaining. This module is now on the Powershell gallery and [can be downloaded by following this link](https://www.powershellgallery.com/packages/UniversalDashboard.AnimateSvg/1.0.0)
 
 ## Where Did You Find It?
 
