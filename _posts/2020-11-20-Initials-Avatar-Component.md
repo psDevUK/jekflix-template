@@ -36,7 +36,7 @@ Well if you have a butchers at the original project on npmjs I have included the
 I'm sure any dashboard user could get this component working with ease, but you might then be like, well it's not that fancy as it always produces the same type of avatar style for each name, so how can you personalise it a bit?
 
 ```
-Import-Module -Name UniversalDashboard.Community -RequiredVersion 2.8.1
+Import-Module -Name UniversalDashboard.Community
 Import-Module -Name UniversalDashboard.Style
 Import-Module -Name UniversalDashboard.NoAvatar
 Get-UDDashboard | Stop-UDDashboard
