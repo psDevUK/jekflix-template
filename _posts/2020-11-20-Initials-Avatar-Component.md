@@ -4,8 +4,8 @@ layout: post
 title: Initials Avatar Component
 subtitle: Nice simple component to display initials as an icon or avatar
 description: This blog covers a brand new component I have built for Universal Dashboard. The blog will cover this initials avatar component and how to add it to your dashboard
-image: https://www.gravatar.com/avatar/b116f04b79df87fb95b7bd41c3c85a07?d=https%3A%2F%2Fwww.elitefts.com%2Fmedia%2Fgravatar%2Fprofile-default.png&s=30
-optimized_image: https://i1.wp.com/aaronphelan.me/wp-content/uploads/2020/06/undraw_male_avatar_323b.png?fit=2113%2C2113&ssl=1
+image: https://i1.wp.com/aaronphelan.me/wp-content/uploads/2020/06/undraw_male_avatar_323b.png?fit=2113%2C2113&ssl=1
+optimized_image: https://www.gravatar.com/avatar/b116f04b79df87fb95b7bd41c3c85a07?d=https%3A%2F%2Fwww.elitefts.com%2Fmedia%2Fgravatar%2Fprofile-default.png&s=30 
 category: component
 tags:
   - Component
