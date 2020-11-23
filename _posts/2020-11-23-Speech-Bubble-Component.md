@@ -60,11 +60,11 @@ I'm sure any dashboard user could get this component working with ease, but it i
 ```
 Import-Module -Name UniversalDashboard.Community -RequiredVersion 2.8.1
 Import-Module -Name UniversalDashboard.Style
-Import-Module "C:\UD\ToastIt\Toasted\src\output\UniversalDashboard.UDToasted\UniversalDashboard.UDToasted.psd1"
+Import-Module -Name UniversalDashboard.UDSpeechBubble
 Get-UDDashboard | Stop-UDDashboard
 Start-UDDashboard -Port 10005 -Dashboard (
     New-UDDashboard -Title "Powershell UniversalDashboard" -Content {
-        New-UDToasted -Title "Powershell UniversalDashboard" -Text "Hello I am here to help and assist you in using this dashboard" -Image "https://octodex.github.com/images/daftpunktocat-thomas.gif" -VerticalPosition "80px" -HorizontalPosition "-400px"
+        New-UDSpeechBubble -Title "Powershell UniversalDashboard" -Text "Hello I am here to help and assist you in using this dashboard" -Image "https://octodex.github.com/images/daftpunktocat-thomas.gif" -VerticalPosition "80px" -HorizontalPosition "-400px"
         New-UDRow -Columns {
             New-UDColumn -Size 3 -Content {
                 New-UDStyle -Style '.fa-sm {
