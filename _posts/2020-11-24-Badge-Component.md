@@ -270,7 +270,7 @@ Start-UDDashboard -Port 10005 -Dashboard (
 ```
 ## Which gives this
 
-![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/stickyNavbar.gif?raw=true "Component Demo")
+![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/stickyNavbar2.gif?raw=true "Component Demo")
 
 ## Conclusion
 
