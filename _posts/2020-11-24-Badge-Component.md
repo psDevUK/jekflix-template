@@ -2,8 +2,8 @@
 date: 2020-11-24 15:10:20
 layout: post
 title: Badge Component
-subtitle: This is a badge component which I have made into 2 components
-description: This blog covers a brand new component I have built for Universal Dashboard. The blog will cover these 2 different badge components and how to add them to your dashboard
+subtitle: This is a badge component which I have made into 2 components, and a third sticky navbar component
+description: This blog covers several brand new components I have built for Universal Dashboard. The blog will cover these 2 different badge components and how to add them to your dashboard as well as the new sticky navbar component I built as well
 image: https://miro.medium.com/max/3200/1*1ObyPQkG-UZqsvsy1PCKIg@2x.png
 optimized_image: https://miro.medium.com/max/3200/1*1ObyPQkG-UZqsvsy1PCKIg@2x.png
 category: component
