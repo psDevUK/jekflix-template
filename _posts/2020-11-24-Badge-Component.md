@@ -182,7 +182,7 @@ Please note the **one big gotcha** with this component is I had to set the main 
 
 ## Demo
 
-For demonstration purposes I knocked together a real simple dashboard that will now feature a sticky navbar, for me this is great, as I have lost count for the amount of times I have had to explain the hamburger menu is a menu to some people. So figure if the links to the pages are in a nice simple cinstant place then it will be easier for my end-users to navigate around the dashboard
+For demonstration purposes I knocked together a real simple dashboard that will now feature a sticky navbar, for me this is great, as I have lost count for the amount of times I have had to explain the hamburger menu is a menu to some people. So figure if the links to the pages are in a nice simple consistant place then it will be easier for my end-users to navigate around the dashboard
 
 ```
 Import-Module -Name UniversalDashboard
