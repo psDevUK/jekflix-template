@@ -26,7 +26,7 @@ Everything needed to build your own custom component. 14 videos that guide you f
 
 ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/TypingIcon.gif?raw=true "Component You Can Build")
 
-> Videos Included In This Course
+# Videos Included In This Course
 
 1. Introduction
 2. Steps Before Building
