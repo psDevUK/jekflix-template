@@ -25,25 +25,3 @@ author: psdevuk
 Everything needed to build your own custom component. 14 videos that guide you from start to finish plus the UD component template zip file and the end modified JSX file for the project and the modified .PS1 function file.  [Please help a brother in need and purchase your copy here](https://gum.co/djaLOR)
 
 ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/TypingIcon.gif?raw=true "Component You Can Build")
-
-# Videos Included In This Course
-
-- Introduction
-- Steps Before Building
-- Getting Ready To Build
-- First Build
-- Testing The Build
-- Modifying Template JSX
-- Adding An Icon
-- When Something Goes Wrong
-- Add Custom CSS
-- Adding More Parameters
-- More CSS Styling
-- Final Review Of Component
-- Getting Module File Ready To Publish
-- End Result
-
-[If you are still unsure on purchasing then please feel free to read the first review of this course here from one very happy customer](https://forums.universaldashboard.io/t/custom-component-video-course-with-me/4116/2)
-
-### This will go to help make Christmas more like Christmas for my 4 beautiful daughters, help support a developer in need. Thank you
-
