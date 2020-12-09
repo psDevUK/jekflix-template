@@ -43,4 +43,4 @@ Everything needed to build your own custom component. 14 videos that guide you f
 - Getting Module File Ready To Publish
 - End Result
 
-[Read my first review of this course here](https://forums.universaldashboard.io/t/custom-component-video-course-with-me/4116/2)
+[Read the first review of this course here](https://forums.universaldashboard.io/t/custom-component-video-course-with-me/4116/2)
