@@ -28,22 +28,22 @@ Everything needed to build your own custom component. 14 videos that guide you f
 
 # Videos Included In This Course
 
-1. Introduction
-2. Steps Before Building
-3. Getting Ready To Build
-4. First Build
-5. Testing The Build
-6. Modifying Template JSX
-7. Adding An Icon
-8. When Something Goes Wrong
-9. Add Custom CSS
-10. Adding More Parameters
-11. More CSS Styling
-12. Final Review Of Component
-13. Getting Module File Ready To Publish
-14. End Result
+- Introduction
+- Steps Before Building
+- Getting Ready To Build
+- First Build
+- Testing The Build
+- Modifying Template JSX
+- Adding An Icon
+- When Something Goes Wrong
+- Add Custom CSS
+- Adding More Parameters
+- More CSS Styling
+- Final Review Of Component
+- Getting Module File Ready To Publish
+- End Result
 
-[If you are still unsure on purchasing, then please feel free to read the first review of this course here from one very happy customer](https://forums.universaldashboard.io/t/custom-component-video-course-with-me/4116/2)
+[If you are still unsure on purchasing then please feel free to read the first review of this course here from one very happy customer](https://forums.universaldashboard.io/t/custom-component-video-course-with-me/4116/2)
 
-## This will go to help make Christmas more like Christmas for my 4 beautiful daughters, help support a developer in need. Thank you
+### This will go to help make Christmas more like Christmas for my 4 beautiful daughters, help support a developer in need. Thank you
 
