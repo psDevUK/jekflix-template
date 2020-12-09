@@ -25,3 +25,5 @@ author: psdevuk
 Everything needed to build your own custom component. 14 videos that guide you from start to finish plus the UD component template zip file and the end modified JSX file for the project and the modified .PS1 function file.  [Please help a brother in need and purchase your copy here](https://gum.co/djaLOR)
 
 ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/TypingIcon.gif?raw=true "Component You Can Build")
+
+> Videos Included In This Course
