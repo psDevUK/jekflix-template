@@ -27,3 +27,18 @@ Everything needed to build your own custom component. 14 videos that guide you f
 ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/TypingIcon.gif?raw=true "Component You Can Build")
 
 > Videos Included In This Course
+
+- Introduction
+- Steps Before Building
+- Getting Ready To Build
+- First Build
+- Testing The Build
+- Modifying Template JSX
+- Adding An Icon
+- When Something Goes Wrong
+- Add Custom CSS
+- Adding More Parameters
+- More CSS Styling
+- Final Review Of Component
+- Getting Module File Ready To Publish
+- End Result
