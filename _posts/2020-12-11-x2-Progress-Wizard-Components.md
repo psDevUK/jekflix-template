@@ -20,7 +20,7 @@ author: psdevuk
 
  So I been keeping myself really busy and I actually built these components before releasing the video course which is mentioned in my previous blog. Building this particular type of component has been on my component radar for sometime now. However as I am on furlough I have recently had more time to look at components and try building some components I been wanting to build for a while.
  
-## What Does These Components Do?
+## What Do These Components Do?
 
 Again I know this particular type of component is in Powershell Universal, but for those old skool dashboarders still running on just UniversalDashboard there is nothing quite like this. I believe in the new UD v3 it is called UD-Stepper, which is what I was going to call mine, but I couldn't as I saw that name was taxed, plus I was struggling to get the original one I was working on, working. So I looked for an easier option, got that component working, then re-visited the other component. 
 So when your on a web site and they have put their input form into multiple stages you normally get some sort of progress wizard appear along the top to show you how many more steps you need to complete before the form is fully completed. So this is my spin on this type of component x2.
