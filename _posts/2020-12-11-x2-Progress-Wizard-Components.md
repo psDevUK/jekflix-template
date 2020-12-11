@@ -4,8 +4,8 @@ layout: post
 title: x2 Progress Wizard Components
 subtitle: Some more brand new components to talk about
 description: This blog covers x2 more brand-new components for UniversalDashboard that allow a wizard/progress bar to show when completing an input form on your dashboard.
-image: https://images.ctfassets.net/ly2f59p4unnn/82sBpZHBRS9hWPLh3ZCld/84bc08e5efe27b65e07811b85e20e06f/undraw_progress_tracking_7hvk.png
-optimized_image: https://images.ctfassets.net/ly2f59p4unnn/82sBpZHBRS9hWPLh3ZCld/84bc08e5efe27b65e07811b85e20e06f/undraw_progress_tracking_7hvk.png
+image: https://mnarahealth.co.uk/wp-content/uploads/2020/06/undraw_setup_wizard_trans-1024x750.png
+optimized_image: https://mnarahealth.co.uk/wp-content/uploads/2020/06/undraw_setup_wizard_trans-1024x750.png
 category: Component
 tags:
   - Wizard
