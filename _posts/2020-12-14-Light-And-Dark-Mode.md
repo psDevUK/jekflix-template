@@ -1,11 +1,11 @@
 ---
-date: 2020-12-14 19:07:20
+date: 2020-12-14 20:07:20
 layout: post
 title: Light And Dark Mode
 subtitle: Another component that has been on my to-do list
 description: A long time ago it was requested for a darkmode toggle switch in UniversalDashboard. Well the IronmanSoftware team delivered and brought this into Powershell Universal, but here is my spin on it.
-image:https://vivaldi.com/wp-content/uploads/Is-dark-mode-better-for-you-980x551.png
-optimized_image:https://vivaldi.com/wp-content/uploads/Is-dark-mode-better-for-you-980x551.png
+image: https://vivaldi.com/wp-content/uploads/Is-dark-mode-better-for-you-980x551.png
+optimized_image: https://vivaldi.com/wp-content/uploads/Is-dark-mode-better-for-you-980x551.png
 category: Component
 tags:
   - Light
