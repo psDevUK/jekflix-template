@@ -127,6 +127,22 @@ Yes I know there is loads of New-UDRow, but just imagine that is actual text con
 
 ![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/ScrollSpy.gif?raw=true "Simple Demo")
 
+## Added a few more parameters
+
+  Althogh I was happy with this component, the spacing between the top of the screen and the component didn't quite sit right. Yes I like to make things as perfect as possible, or try to...so I added the following parameters
+  ```
+  [Parameter()]
+        [int]$Top = 60, #How far down the scroll navbar appears
+        [Parameter()]
+        [int]$zIndex = 20, #Position behind UDnavbar
+        [Parameter()]
+        [string]$Width = "100%" #Width of the scollspy navbar
+  ```
+ Again to try and be helpful I am giving default values on these new parameters to make life a bit more simple for you. So re-runnning the demo code should now produce the following
+ 
+![placeholder](https://github.com/psDevUK/ud-flix/blob/master/assets/img/NewScrollSpy.gif?raw=true "Another Demo")
+
+this for me looks a lot better than the above GIF from the demo code. Now using this same demo code but with the new parameters added will now sit the scrollspy navbar nicely behind the UD navbar and stays positioned right at the top of the screen, without leaving any space like before. 
 
 ## Conclusion
 
