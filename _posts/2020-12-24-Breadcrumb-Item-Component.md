@@ -31,11 +31,11 @@ Adds a navigation menu showing the user the current page they are on, and other 
 
 Saw this raised a while back on the UD forums that a fewllo UD dashboarder user was trying to develop their own Breadcrumb component, and well, quite simply I thought this was be a really good addition to the marketplace, as I had not seen it appear on the marketplace. 
 
-## Please note you need both modules for this to work, just like for the Step Progress Bar
+### Please note you need both modules for this to work, just like for the Step Progress Bar component
 
-## You need the Breadcrumb module and BreadcrumItem module both installed for this to work
+### You need the Breadcrumb module and BreadcrumItem module both installed for this to work
 
-#Demo 
+# Demo 
 ```
     New-UDBreadcrumb -Id "BreadcrumbExample" -Content {
         New-UDBreadcrumbItem -Link "/Example"-LinkText "Example" -Icon "helicopter" -Active $true
