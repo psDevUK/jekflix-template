@@ -1,17 +1,18 @@
 ---
-date: 2021-05-07 14:38:20
+date: 2021-05-07 14:32:20
 layout: post
 title: Powershell Universal Component
 subtitle: This is a blog all about Powershell Universal and a new custom component that I have developed for this awesome bit of software
 description: Add a trendy trend line component graph to your dashboard
-image: https://www.forex.academy/wp-content/uploads/2020/09/Trendlines_1790132246.jpg
-optimized_image: https://www.forex.academy/wp-content/uploads/2020/09/Trendlines_1790132246.jpg
-category: Component
+image: https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/t4.PNG
+optimized_image: https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/t4.PNG
+category: component
 tags:
   - Powershell
   - Universal
   - Dashboard
-  author: psdevuk
+  - Component
+author: psdevuk
 ---
 
 ## Welcome
