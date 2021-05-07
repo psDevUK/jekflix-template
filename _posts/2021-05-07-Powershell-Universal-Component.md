@@ -75,7 +75,7 @@ New-UDTrendLine -ID "TRENDLINE" -AutoDraw -Radius 4.5 -StrokeWidth 1.1 -Duration
 
 The nice thing about this component is it accepts, both named colours, and HTML colour codes.  The other nice thing about this component is it looks great in either light or dark themed dashboards. 
 
-![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/tl2.PNG "Demo")
+![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/t2.PNG "Demo2")
 
 
 Or to use the same **-data** but different parameters to get a totally different look:-
@@ -83,11 +83,11 @@ Or to use the same **-data** but different parameters to get a totally different
 ```
 New-UDTrendLine -ID "TRENDLINE" -AutoDraw -Smooth -StrokeWidth 2.1 -Duration 5000 -Data @(3,33,4,45,7,77,5,34)
 ```
-![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/tl3.PNG "Demo")
+![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/t3.PNG "Demo3")
 
 Once again this same **data** trendline looks great in either light or dark mode
 
-![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/tl4.PNG "Demo")
+![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/t4.PNG "Demo4")
 
  It's simple but has a really nice effect on the page, and automatically resizes to the page width, I did not include the height and width parameters for this component, as mentioned on the component page, you can control this by the size of the container you put it in.  As in you create a new coloumn choose the size of that column and nest the component inside that. 
   I am personally thinking about using this trendline component to display the amount of times the user has actually visited the dashboard, as I think that would be a nice feature to add to any dashbaord. 
