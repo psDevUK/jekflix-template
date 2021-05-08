@@ -91,7 +91,7 @@ Once again this same **data** trendline looks great in either light or dark mode
 ![placeholder](https://raw.githubusercontent.com/psDevUK/ud-flix/master/assets/img/t4.PNG "Demo4")
 
  It's simple but has a really nice effect on the page, and automatically resizes to the page width, I did not include the height and width parameters for this component, as mentioned on the component page, you can control this by the size of the container you put it in.  As in you create a new coloumn choose the size of that column and nest the component inside that. 
-  I am personally thinking about using this trendline component to display the amount of times the user has actually visited the dashboard, as I think that would be a nice feature to add to any dashbaord. 
+  I am personally thinking about using this trendline component to display the amount of times the user has actually visited the dashboard, as I think that would be a nice feature to add to any dashboard. 
    
 
 ## Conclusion
